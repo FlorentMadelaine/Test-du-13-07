@@ -1,0 +1,69 @@
+img.displayed{
+    display: block;
+    width: max-content;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+
+
+.contenant {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.texte1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3{color: beige;
+    text-align: left;
+}
+.Texte{text-align: center;}
+
+ul {
+    list-style: none; /* enlever les puces */
+    margin: 0; /* enlever les marges automatiques */
+}
+ 
+ul li {
+    display: table-cell; /* affichage en ligne */
+}
+
+.Container {display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 2fr 2fr 1fr;
+            grid-template-rows: 300px;
+            height:300px;
+            /*Je sais c'est pas ça,pourtant j'ai réussi hier soir */
+            
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+all { border-width:1px;
+    border-style: solid}
+ul
+{
+    list-style-type: none;
+ 
+}
+
+footer{text-align: center;
+       border-width:1px;
+       border-style: solid;
+       width: min-content;
+}
+
+
+@media only screen and (max-width: 600px)
+body{ display:block;
+}
